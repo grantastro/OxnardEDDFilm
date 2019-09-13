@@ -11,6 +11,8 @@ body {
 .navbar {
   background: #000 !important;
   border-bottom: 3px #ff0000 solid; }
+  .navbar h1 {
+    font-weight: bold; }
   .navbar span {
     color: #ff0000 !important; }
   .navbar .nav-link {
@@ -146,6 +148,10 @@ body {
     #main-footer .social a .fab:hover,
     #main-footer .fas:hover {
       background: red; }
+
+@media (max-width: 500px) {
+  .navbar-brand span {
+    display: table; } }
 
 @media (min-width: 1000px) {
   .carousel-image-2 {

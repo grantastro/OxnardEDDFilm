@@ -16,6 +16,10 @@ body {
   background: #000 !important;
   border-bottom: 3px #ff0000 solid;
 
+  h1 {
+    font-weight: bold;
+  }
+
   span {
     color: #ff0000 !important;
   }
@@ -186,6 +190,12 @@ body {
     &:hover {
       background: rgb(255, 0, 0);
     }
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar-brand span {
+    display: table;
   }
 }
 
