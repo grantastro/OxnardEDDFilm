@@ -135,30 +135,38 @@ body {
 }
 
 #blog {
+  .container {
+    width: auto;
+    height: 770px;
 
-  #box-shadow {
-    box-shadow: 10px 10px 10px #333;
-  }
+    .card {
+      margin: 2rem;
+    }
 
-  .social-blog a {
-    display: inline-block;
-    margin-right: 1rem;
-    margin-left: 1rem;
-    height: 10px;
-    width: 10px;
+    #box-shadow {
+      box-shadow: 10px 10px 10px #333;
+    }
 
-    .fab {
-      margin-right: 2rem;
-      border: 2px #000 solid;
-      border-radius: 50%;
-      height: 35px;
-      width: 35px;
-      line-height: 15px;
-      text-align: center;
-      padding: 0.5rem;
+    .social-blog a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-left: 1rem;
+      height: 10px;
+      width: 10px;
 
-      &:hover {
-        background: rgb(255, 0, 0);
+      .fab {
+        margin-right: 2rem;
+        border: 2px #000 solid;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        line-height: 15px;
+        text-align: center;
+        padding: 0.5rem;
+
+        &:hover {
+          background: rgb(255, 0, 0);
+        }
       }
     }
   }
