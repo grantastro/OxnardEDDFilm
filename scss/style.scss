@@ -12,6 +12,9 @@ body {
 }
 
 .navbar {
+<<<<<<< HEAD
+  background: #000 !important;
+=======
 
   background: #000 !important;
   border-bottom: 3px #ff0000 solid;
@@ -23,6 +26,7 @@ body {
   span {
     color: #ff0000 !important;
   }
+>>>>>>> 2efa2c4c128f994c8d72b6a424437551d036a21d
 
   .nav-link {
     font-size: 14px;
@@ -37,7 +41,7 @@ body {
 }
 
 .carousel-item {
-  height: 450px;
+  height: 550px;
 }
 
 .carousel-image-1 {
@@ -104,17 +108,26 @@ body {
 }
 
 #about-header {
+<<<<<<< HEAD
+  height: 150px;
+  background: #000;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 4px rgb(255, 0, 0) solid;
+  padding-top: 50px;
+=======
   height: 60px;
   background: #000;
   color: #fff;
   border-bottom: 3px #ff0000 solid;
   padding-top: 1px;
   text-transform: capitalize;
+>>>>>>> 2efa2c4c128f994c8d72b6a424437551d036a21d
 }
 
 #about .container {
   width: auto;
-  height: 700px;
+  height: 100%;
 }
 
 .about-img {
@@ -126,6 +139,72 @@ body {
 }
 
 #blog-header {
+<<<<<<< HEAD
+  height: 150px;
+  background: #000;
+  color: #fff;
+  border-bottom: 4px rgb(255, 0, 0) solid;
+  padding-top: 50px;
+}
+
+.social-blog a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: 10px;
+  width: 10px;
+
+  .fab {
+    margin-right: 2rem;
+    border: 2px #000 solid;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 15px;
+    text-align: center;
+    padding: 0.5rem;
+
+    &:hover {
+      background: rgb(255, 0, 0);
+    }
+  }
+}
+
+#cast-header {
+  height: 150px;
+  background: #000;
+  color: #fff;
+  border-bottom: 4px rgb(255, 0, 0) solid;
+  padding-top: 50px;
+}
+
+.text-primary-red {
+  color: rgb(255, 0, 0);
+}
+
+#cast {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: rgb(255, 0, 0);
+    color: #fff;
+  }
+
+  .fab {
+    color: #fff;
+  }
+}
+
+
+.social-blog a {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  height: 10px;
+  width: 10px;
+=======
   height: 60px;
   background: #000;
   color: #fff;
@@ -135,6 +214,7 @@ body {
 }
 
 #blog {
+>>>>>>> 2efa2c4c128f994c8d72b6a424437551d036a21d
 
   .card {
     margin: 2rem;
@@ -167,6 +247,8 @@ body {
     }
   }
 }
+
+
 
 #main-footer {
   background: #000;
