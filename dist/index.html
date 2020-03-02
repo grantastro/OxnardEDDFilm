@@ -1,836 +1,631 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-    />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>OxnardEDDFilm</title>
-  </head>
 
-  <body id="home" data-spy="scroll" data-target="#main-nav" data-offset="70">
-    <nav
-      class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top"
-      id="main-nav"
-    >
-      <div class="container">
-        <a href="index.html" class="navbar-brand"
-          >The Oxnard EDD <span class="text-danger">Shooting Massacre</span></a
-        >
-        <button
-          class="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-header" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#blog-header" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a href="#gallery" class="nav-link">Gallery</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>OxnardEDDFilm</title>
+</head>
+
+<body id="home" data-spy="scroll" data-target="#main-nav" data-offset="70">
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top" id="main-nav">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">The Oxnard EDD <span class="text-danger">Shooting Massacre</span></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-header" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog-header" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- SHOWCASE SLIDER -->
-    <section id="showcase">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" date-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" date-slide-to="1"></li>
-          <li data-target="#myCarousel" date-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item carousel-image-1 active">
-            <div class="container"></div>
-          </div>
-
-          <div class="carousel-item carousel-image-2">
-            <div class="container"></div>
-          </div>
-
-          <div class="carousel-item carousel-image-3">
-            <div class="container"></div>
-          </div>
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" date-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" date-slide-to="1"></li>
+        <li data-target="#myCarousel" date-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container"></div>
         </div>
 
-        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </section>
+        <div class="carousel-item carousel-image-2">
+          <div class="container"></div>
+        </div>
 
-    <!-- ABOUT SECTION HEADER -->
-    <header id="about-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto text-center">
-            <h1>About</h1>
-          </div>
+        <div class="carousel-item carousel-image-3">
+          <div class="container"></div>
         </div>
       </div>
-    </header>
-    <!-- ABOUT SECTION -->
-    <section id="about" class="py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>The <span class="text-danger">Film</span></h1>
-            <blockquote>
-              <footer class="blockquote-footer text-right text-danger ">
-                <strong>
-                  Who goes to work and doesn't <br />
-                  think they're going to come back home?</strong
-                >
-              </footer>
-            </blockquote>
-            <p>
-              Is a film that encompasses the survivors (Cathie Jimenez, Carol
-              Wilson, Ramona Alamillo, Catherine Stinson, Alexis Jimenez, Timm
-              Herdt, Irma Lopez, Frank Forbes, former Oxnard Policemen Robert
-              Vizcarra, and Steve Vendt as well as former Oxnard Police
-              Department Spokesman David Keith), from the Oxnard Employment
-              Development Department shooting rampage that took place on
-              December 2, 1993 in Oxnard, CA.
-            </p>
-            <p>
-              A ton of hard work has been put into the creation of this film.
-              Our goal is to bring honor and light to this story and raise
-              awareness to the memory and promise the former employees of the
-              Oxnard EDD made to the victims’ families, “We will never forget.”.
-              <strong class="text-danger">Alan Winterbourne</strong> entered an
-              unemployment office in Oxnard and started shooting at state
-              employees, killing three and wounding several others. Afterwards
-              he headed to another unemployment office, killing a cop on his
-              way. He was shot down by the police in the parking lot of the
-              second unemployment office before he could wreak more havoc.
-            </p>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="img/unnamed.png"
-              alt=""
-              class="img-fluid d-none d-md-block about-img"
-            />
-          </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION HEADER -->
+  <header id="about-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>About</h1>
         </div>
       </div>
-    </section>
-
-    <!-- PAGE HEADER -->
-    <header id="blog-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto text-center">
-            <h1>Read Our Blog</h1>
-          </div>
+    </div>
+  </header>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>The <span class="text-danger">Film</span></h1>
+          <blockquote>
+            <footer class="blockquote-footer text-right text-danger ">
+              <strong>
+                Who goes to work and doesn't <br />
+                think they're going to come back home?</strong>
+            </footer>
+          </blockquote>
+          <p>
+            Is a film that encompasses the survivors (Cathie Jimenez, Carol
+            Wilson, Ramona Alamillo, Catherine Stinson, Alexis Jimenez, Timm
+            Herdt, Irma Lopez, Frank Forbes, former Oxnard Policemen Robert
+            Vizcarra, and Steve Vendt as well as former Oxnard Police
+            Department Spokesman David Keith), from the Oxnard Employment
+            Development Department shooting rampage that took place on
+            December 2, 1993 in Oxnard, CA.
+          </p>
+          <p>
+            A ton of hard work has been put into the creation of this film.
+            Our goal is to bring honor and light to this story and raise
+            awareness to the memory and promise the former employees of the
+            Oxnard EDD made to the victims’ families, “We will never forget.”.
+            <strong class="text-danger">Alan Winterbourne</strong> entered an
+            unemployment office in Oxnard and started shooting at state
+            employees, killing three and wounding several others. Afterwards
+            he headed to another unemployment office, killing a cop on his
+            way. He was shot down by the police in the parking lot of the
+            second unemployment office before he could wreak more havoc.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/unnamed.png" alt="" class="img-fluid d-none d-md-block about-img" />
         </div>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <!-- BLOG -->
-    <section id="blog" class="py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="card-columns">
-              <div class="card">
-                <img
-                  src="img/gallery/01.jpg"
-                  alt=""
-                  class="img-fluid card-img-top"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">Where are we on the film?</h4>
-                  <small class="text-muted">Written by Anthony on 08/21</small>
-                  <hr />
-                  <p class="card-text">
-                    The Oxnard EDD shooting Massacre is currently in the editing
-                    proccess. It is standing at Phase 2 as the ball continues to
-                    roll we are constantly updating our social media pages with
-                    teaser and Behind the scenes Photos/Videos. Check out our
-                    instagram and facebook pages for more info!
-                  </p>
-                  <blockquote>
-                    <footer class="blockquote-footer text-danger">
-                      <i
-                        ><strong
-                          >release date fall 2020, (date subject to
-                          change).</strong
-                        ></i
-                      >
-                    </footer>
-                  </blockquote>
-                  <div class="row">
-                    <div class="col-lg-12">
-                      <div class="social-blog">
-                        <a
-                          href="https://www.facebook.com/TheOxnardEddShootingMassacre/"
-                          target="_blank"
-                        >
-                          <i class="fab fa-facebook text-dark"></i
-                        ></a>
-                        <a
-                          href="https://www.instagram.com/oxnardeddfilm/"
-                          target="_blank"
-                          ><i class="fab fa-instagram text-dark"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  <!-- PAGE HEADER -->
+  <header id="blog-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Read Our Blog</h1>
+        </div>
+      </div>
+    </div>
+  </header>
 
-              <div class="card">
-                <img
-                  src="img/gallery/Notebook past and present new.jpg"
-                  alt=""
-                  class="img-fluid card-img-top"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">The Notebook</h4>
-                  <small class="text-muted">Written by Anthony on 08/18</small>
-                  <hr />
-                  <p class="card-text">
-                    Past & Present: Reenactment photo of Alan Winterbourne's
-                    notebook that he left inside what was then the Ventura
-                    County Star Free Press.
-                  </p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img
-                  src="img/gallery/director_and_assistant.jpg"
-                  alt=""
-                  class="img-fluid card-img-top"
-                />
-                <div class="card-body">
-                  <h4 class="card-title">Close to Home</h4>
-                  <small class="text-muted">Written by Anthony on 08/13</small>
-                  <hr />
-                  <p class="card-text">
-                    <strong class="text-danger">Andrew Jimenez,</strong>
-                    (pictured left) the Director of this film is extremely
-                    passionate about bringing this story into the spotlight. His
-                    mother
-                    <strong class="text-danger">Cathie Jimenez</strong> is a
-                    survivor of this horrifying event.
-                  </p>
-                  <div class="row">
-                    <div class="col-sm">
-                      <a
-                        href="https://www.imdb.com/name/nm7476394/?ref_=tt_cl_t1"
-                        target="_blank"
-                      >
-                        <i class="fab fa-imdb fa-3x text-dark"></i
-                      ></a>
+  <!-- BLOG -->
+  <section id="blog" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card-columns">
+            <div class="card">
+              <img src="img/gallery/01.jpg" alt="" class="img-fluid card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Where are we on the film?</h4>
+                <small class="text-muted">Written by Anthony on 08/21</small>
+                <hr />
+                <p class="card-text">
+                  The Oxnard EDD shooting Massacre is currently in the editing
+                  proccess. It is standing at Phase 2 as the ball continues to
+                  roll we are constantly updating our social media pages with
+                  teaser and Behind the scenes Photos/Videos. Check out our
+                  instagram and facebook pages for more info!
+                </p>
+                <blockquote>
+                  <footer class="blockquote-footer text-danger">
+                    <i><strong>release date fall 2020, (date subject to
+                        change).</strong></i>
+                  </footer>
+                </blockquote>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="social-blog">
+                      <a href="https://www.facebook.com/TheOxnardEddShootingMassacre/" target="_blank">
+                        <i class="fab fa-facebook text-dark"></i></a>
+                      <a href="https://www.instagram.com/oxnardeddfilm/" target="_blank"><i
+                          class="fab fa-instagram text-dark"></i></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!--  -->
-    <header id="cast-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 m-auto text-center">
-            <h1>Cast</h1>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section id="cast" class="my-5 text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="info-header mb-5">
-              <h1 class="text-primary-red pb-3">
-                <strong>Meet The Cast</strong>
-              </h1>
-              <p class="text-dark font-weight-bold">
-                Meet the talented cast members for the film
-              </p>
-              <p>
-                To see more of them visit the
-                <a href="https://www.imdb.com/title/tt5626878/">IMBD</a> page!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
             <div class="card">
+              <img src="img/gallery/Notebook past and present new.jpg" alt="" class="img-fluid card-img-top" />
               <div class="card-body">
-                <img
-                  src="img/david_goldberg.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Narrator</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(David Michael Goldberg)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm7731513/?ref_=tt_cl_t2"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
+                <h4 class="card-title">The Notebook</h4>
+                <small class="text-muted">Written by Anthony on 08/18</small>
+                <hr />
+                <p class="card-text">
+                  Past & Present: Reenactment photo of Alan Winterbourne's
+                  notebook that he left inside what was then the Ventura
+                  County Star Free Press.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img src="img/gallery/director_and_assistant.jpg" alt="" class="img-fluid card-img-top" />
+              <div class="card-body">
+                <h4 class="card-title">Close to Home</h4>
+                <small class="text-muted">Written by Anthony on 08/13</small>
+                <hr />
+                <p class="card-text">
+                  <strong class="text-danger">Andrew Jimenez,</strong>
+                  (pictured left) the Director of this film is extremely
+                  passionate about bringing this story into the spotlight. His
+                  mother
+                  <strong class="text-danger">Cathie Jimenez</strong> is a
+                  survivor of this horrifying event.
+                </p>
+                <div class="row">
+                  <div class="col-sm">
+                    <a href="https://www.imdb.com/name/nm7476394/?ref_=tt_cl_t1" target="_blank">
+                      <i class="fab fa-imdb fa-3x text-dark"></i></a>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/lizet.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Cathie Jimenez</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Lizet Benrey)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm2080954/?ref_=tt_cl_t3"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/James_Quade.png"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Alan Winterbourne</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(James Quade)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm8064971/?ref_=tt_cl_t4"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/mayra_hernandez.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Irma Lopez</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Mayra Hernandez)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm8064973/?ref_=tt_cl_t12"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/Jill_Costanzo.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Ramona Alamillo</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Jill Costanzo)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm4689639/?ref_=tt_cl_t10"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/paul_uhler.JPG"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Dr. Peter Gaal / Pastor Kenneth Fields</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Paul Uhler)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm7636054/?ref_=tt_cl_t15"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/Tricia_DelaRosa (1).png"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Carol Wilson</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Tricia DeLaRosa)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm2515351/?ref_=tt_cl_t5"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/Karen_Delia_Mendoza_1.png"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Cathy Stinson</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Karen Delia-Mendoza)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm7642419/?ref_=tt_cl_t6"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/vince_oliver.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Robert Vizcarra</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Vince Oliver)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm4718577/?ref_=tt_cl_t7"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/Mark_anthony_cox.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>David Keith</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Mark Anthony Cox)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm1028773/?ref_=tt_cl_t8"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/frank_forbes1.png"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Steve Vendt</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">(Frank Forbes)</h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm2911946/?ref_=tt_cl_t9"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="img/nestor_olivo.png"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Phillip Villegas / Ray Gonzalez</h3>
-                <h5>Portrayed by</h5>
-                <h5 class="text-muted">
-                  (Nestor Olivo)
-                </h5>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a
-                      href="https://www.imdb.com/name/nm7476395/?ref_=tt_cl_t11"
-                      target="_blank"
-                    >
-                      <i class="fab fa-imdb fa-3x"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- VIDEO PLAY -->
-    <section id="video-play">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container p-5">
-              <a
-                href="#"
-                class="video"
-                data-video="https://www.youtube.com/embed/tZQKZ0w1Ww8"
-                data-toggle="modal"
-                data-target="#videoModal"
-                ><i class="fas fa-play fa-3x"></i
-              ></a>
-              <h1>TRAILER</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- PHOTO GALLERY -->
-    <section id="gallery" class="py-5">
-      <div class="container">
-        <h1 class="text-center">Photo Gallery</h1>
-        <p class="text-center">Check out the crew</p>
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/08.png"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img src="img/thumbs/08.png" alt="" class="img-fluid"
-            /></a>
-          </div>
-
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/11.jpg"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img src="img/thumbs/11.jpg" alt="" class="img-fluid"
-            /></a>
-          </div>
-
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/06.jpg"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img src="img/thumbs/06.jpg" alt="" class="img-fluid"
-            /></a>
-          </div>
-        </div>
-
-        <div class="row mb-5">
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/07.jpg"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img src="img/thumbs/07.jpg" alt="" class="img-fluid"
-            /></a>
-          </div>
-
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/02.jpg"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img src="img/thumbs/02.jpg" alt="" class="img-fluid"
-            /></a>
-          </div>
-
-          <div class="col-md-4">
-            <a
-              href="img/thumbs/04.jpg"
-              data-toggle="lightbox"
-              data-gallery="img-gallery"
-              data-height="560"
-              data-width="560"
-              ><img
-                src="img/thumbs/04.jpg"
-                alt=""
-                class="img-fluid overflow-hidden"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="text-center p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <p>Copyright &copy; <span id="year"></span> OxnardEDDFilm</p>
-            <div class="social">
-              <a
-                href="https://www.youtube.com/watch?v=hP61ZQW2o24"
-                target="_blank"
-                ><i class="fab fa-youtube text-white"></i>
-              </a>
-              <a
-                href="https://www.facebook.com/TheOxnardEddShootingMassacre/"
-                target="_blank"
-              >
-                <i class="fab fa-facebook text-white"></i
-              ></a>
-              <a href="https://www.instagram.com/oxnardeddfilm/" target="_blank"
-                ><i class="fab fa-instagram text-white"></i
-              ></a>
-              <a href="https://www.imdb.com/title/tt5626878/" target="_blank"
-                ><i class="fas fa-film text-white"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- VIDEO MODAL -->
-    <div class="modal fade" id="videoModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-            <iframe
-              src=""
-              frameborder="0"
-              height="350"
-              width="100%"
-              allowfullscreen
-            ></iframe>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+  <!--  -->
+  <header id="cast-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Cast</h1>
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <script>
-      // Get the current year for the copyright
-      $("#year").text(new Date().getFullYear());
+  <section id="cast" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-primary-red pb-3">
+              <strong>Meet The Cast</strong>
+            </h1>
+            <p class="text-dark font-weight-bold">
+              Meet the talented cast members for the film
+            </p>
+            <p>
+              To see more of them visit the
+              <a href="https://www.imdb.com/title/tt5626878/">IMBD</a> page!
+            </p>
+          </div>
+        </div>
+      </div>
 
-      // Configure slider
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/david_goldberg.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Narrator</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(David Michael Goldberg)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm7731513/?ref_=tt_cl_t2" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      // Configure Slider
-      $(".carousel").carousel({
-        interval: 6000,
-        pause: "hover"
-      });
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/lizet.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Cathie Jimenez</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Lizet Benrey)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm2080954/?ref_=tt_cl_t3" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/James_Quade.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Alan Winterbourne</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(James Quade)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm8064971/?ref_=tt_cl_t4" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      // Lightbox Inut
-      $(document).on("click", '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
-      });
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/mayra_hernandez.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Irma Lopez</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Mayra Hernandez)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm8064973/?ref_=tt_cl_t12" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      // Video Play
-      $(function() {
-        // Auto play modal video
-        $(".video").click(function() {
-          var theModal = $(this).data("target"),
-            videoSRC = $(this).attr("data-video"),
-            videoSRCauto =
-              videoSRC +
-              "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
-          $(theModal + " iframe").attr("src", videoSRCauto);
-          $(theModal + " button.close").click(function() {
-            $(theModal + " iframe").attr("src", videoSRC);
-          });
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Jill_Costanzo.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Ramona Alamillo</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Jill Costanzo)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm4689639/?ref_=tt_cl_t10" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/paul_uhler.JPG" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Dr. Peter Gaal / Pastor Kenneth Fields</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Paul Uhler)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm7636054/?ref_=tt_cl_t15" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Tricia_DelaRosa (1).png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Carol Wilson</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Tricia DeLaRosa)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm2515351/?ref_=tt_cl_t5" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Karen_Delia_Mendoza_1.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Cathy Stinson</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Karen Delia-Mendoza)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm7642419/?ref_=tt_cl_t6" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/vince_oliver.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Robert Vizcarra</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Vince Oliver)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm4718577/?ref_=tt_cl_t7" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/Mark_anthony_cox.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>David Keith</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Mark Anthony Cox)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm1028773/?ref_=tt_cl_t8" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/frank_forbes1.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Steve Vendt</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">(Frank Forbes)</h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm2911946/?ref_=tt_cl_t9" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/nestor_olivo.png" alt="" class="img-fluid rounded-circle w-50 mb-3" />
+              <h3>Phillip Villegas / Ray Gonzalez</h3>
+              <h5>Portrayed by</h5>
+              <h5 class="text-muted">
+                (Nestor Olivo)
+              </h5>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="https://www.imdb.com/name/nm7476395/?ref_=tt_cl_t11" target="_blank">
+                    <i class="fab fa-imdb fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- VIDEO PLAY -->
+  <section id="video-play">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container p-5">
+            <a href="#" class="video" data-video="https://www.youtube.com/embed/tZQKZ0w1Ww8" data-toggle="modal"
+              data-target="#videoModal"><i class="fas fa-play fa-3x"></i></a>
+            <h1>TRAILER</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <p class="text-center">Check out the crew</p>
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <a href="img/thumbs/08.png" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/08.png" alt="" class="img-fluid" /></a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/thumbs/11.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/11.jpg" alt="" class="img-fluid" /></a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/thumbs/06.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/06.jpg" alt="" class="img-fluid" /></a>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <a href="img/thumbs/07.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/07.jpg" alt="" class="img-fluid" /></a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/thumbs/02.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/02.jpg" alt="" class="img-fluid" /></a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="img/thumbs/04.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560"><img src="img/thumbs/04.jpg" alt="" class="img-fluid overflow-hidden" /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> OxnardEDDFilm</p>
+          <div class="social">
+            <a href="https://www.youtube.com/watch?v=hP61ZQW2o24" target="_blank"><i
+                class="fab fa-youtube text-white"></i>
+            </a>
+            <a href="https://www.facebook.com/TheOxnardEddShootingMassacre/" target="_blank">
+              <i class="fab fa-facebook text-white"></i></a>
+            <a href="https://www.instagram.com/oxnardeddfilm/" target="_blank"><i
+                class="fab fa-instagram text-white"></i></a>
+            <a href="https://www.imdb.com/title/tt5626878/" target="_blank"><i class="fas fa-film text-white"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div class="modal fade" id="videoModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button class="close" data-dismiss="modal">
+            <span>&times;</span>
+          </button>
+          <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $("#year").text(new Date().getFullYear());
+
+    // Configure slider
+
+    // Configure Slider
+    $(".carousel").carousel({
+      interval: 6000,
+      pause: "hover"
+    });
+
+    // Lightbox Inut
+    $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+
+    // Video Play
+    $(function () {
+      // Auto play modal video
+      $(".video").click(function () {
+        var theModal = $(this).data("target"),
+          videoSRC = $(this).attr("data-video"),
+          videoSRCauto =
+          videoSRC +
+          "?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1";
+        $(theModal + " iframe").attr("src", videoSRCauto);
+        $(theModal + " button.close").click(function () {
+          $(theModal + " iframe").attr("src", videoSRC);
         });
       });
+    });
 
-      // Init Scrollspy
-      $("body").scrollspy({
-        target: "#main-nav"
-      });
+    // Init Scrollspy
+    $("body").scrollspy({
+      target: "#main-nav"
+    });
 
-      // Smooth Scrolling
-      $("#main-nav a").on("click", function(event) {
-        if (this.hash !== "") {
-          event.preventDefault();
+    // Smooth Scrolling
+    $("#main-nav a").on("click", function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
 
-          const hash = this.hash;
+        const hash = this.hash;
 
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top
-            },
-            200,
-            function() {
-              window.location.hash = hash;
-            }
-          );
-        }
-      });
-    </script>
-  </body>
+        $("html, body").animate({
+            scrollTop: $(hash).offset().top
+          },
+          200,
+          function () {
+            window.location.hash = hash;
+          }
+        );
+      }
+    });
+  </script>
+</body>
+
 </html>
